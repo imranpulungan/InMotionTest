@@ -8,6 +8,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface ApiInterface {
-    @GET("https://api.github.com/search/users?q=language:java+location:indonesia")
+    @GET("/search/users?q=language:java+location:indonesia")
     Call<UserResponse> getDataUser(@Query("per_page") Integer number);
 }
