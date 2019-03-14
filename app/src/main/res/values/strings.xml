@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InMotion Test</string>
+    <string name="ok">Oke</string>
+    <string name="network_error">Error Connecting to Network</string>
+    <string name="failed_connection">Failed Connecting to Server</string>
+    <string name="server_error">Internal Server Error</string>
+    <string name="action_search">Search</string>
+</resources>
